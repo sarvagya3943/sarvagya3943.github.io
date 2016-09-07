@@ -89,7 +89,7 @@ function calcPrimes(){
     }
 
     n++;
-  },30);
+  },1);
 }
 function pauseWork(){
   clearInterval(work);
