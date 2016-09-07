@@ -78,7 +78,7 @@ function calcPrimes(){
   clearInterval(work);
   work = setInterval(function(){
     c = Math.floor(Math.random()*6);
-    p = isPrime(n);
+    p = isPrimee(n);
     if(!p){
       outputNormal(n);
       display(n,p,c);
